@@ -1,19 +1,36 @@
 body {
     margin: 0;
-    padding: 0;
     font-family: Arial, sans-serif;
     background-image: url("background.jpg");
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     color: white;
 }
 
-.overlay {
-    background: rgba(0, 0, 0, 0.6);
-    padding: 50px;
-    height: 100vh;
+header {
+    text-align: center;
+    padding: 40px;
+    background: rgba(0,0,0,0.7);
 }
 
-h1 {
-    font-size: 40px;
+section {
+    background: rgba(0,0,0,0.6);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1, h2 {
+    color: #FFD700;
+}
+
+ul {
+    line-height: 1.8;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0,0,0,0.8);
 }
